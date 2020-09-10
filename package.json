@@ -1,0 +1,20 @@
+{
+  "name": "graphql-service",
+  "version": "1.0.0",
+  "description": "E-commerce Single page web App",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mitesh Bhanushali",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-graphql": "^0.11.0",
+    "graphql": "^15.3.0",
+    "graphql-tools": "^6.2.1",
+    "nodemon": "^2.0.4"
+  }
+}

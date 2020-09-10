@@ -1,0 +1,13 @@
+type Product {
+  id: ID!
+  name: String
+  brand: String
+  quantity: String
+  image: String
+  price: String
+}
+
+type Query {
+  Product(id: ID!): Product
+  Products(limit: Int, sortField: String, sortOrder: String): [Product]
+}
